@@ -1,0 +1,83 @@
+div {
+    text-align: center;
+    justify-items: center;
+}
+
+.piclayout {
+    display: grid;
+    padding: 25px;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+.piclayout img {
+    margin: 10px;
+    border: 2px solid rgb(230, 150, 255);
+    width: 95%;
+}
+
+.main {
+    width: 450px;
+    height: 650px;
+    display: block;
+    border-radius: 10px;
+    background-color: rgb(255, 179, 213);
+    padding : 20px;
+    position: relative;
+}
+
+.metacontainer {
+    background-color: rgba(255, 179, 213, 0.4);
+    width: 100%;
+    padding : 15px;
+}
+
+article {
+    padding : 15px
+}
+
+body {
+    background-image: url("../pics/bckg_01.jpg");
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color : rgba(106, 33, 66, 0.5);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    background-color: rgba(255, 225, 164, 0.816);
+    color: rgb(197, 28, 183);
+    border-radius: 15px;
+    padding: 10px;
+    margin:5px;
+    font-weight: bold;
+    text-decoration: none;
+    width: 100%;
+    transition-property: border, background-color;
+    transition: linear .2s;
+}
+
+a:hover{
+    background-color: rgb(255, 240, 221);
+    border: solid rgba(197, 28, 183,0.5);
+    border-width: 1px 1px 5px 5px;
+}
+
+.btn_ctr {
+    align-items: center;
+    display: grid;
+    padding: 15px;
+}
+
+a img {
+    height: 15px;
+    margin-right: 10px;
+    justify-self: center;
+}
+
+span {
+    float: left;
+    justify-content: left;
+}
